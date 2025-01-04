@@ -20,7 +20,7 @@ const ContactForm = () => {
 
     return (
         <form
-            className="flex flex-col items-center justify-center space-y-6 w-11/12"
+            className="flex flex-col items-center justify-center space-y-6 w-11/12 mx-auto"
             onSubmit={handleSubmit(onSubmit)}
         >
             {/* Full Name Field */}

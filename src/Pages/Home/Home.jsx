@@ -1,12 +1,13 @@
-import { FaHome, FaUserAlt } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import Banner from "../../Components/Home/Banner";
-import { GiSkills } from "react-icons/gi";
 import { BsPersonWorkspace } from "react-icons/bs";
-import { IoMdContact } from "react-icons/io";
 import AboutMe from "../AboutMe/AboutMe";
 import Skills from "../Skills/Skills";
 import Works from "../Works/Works";
 import ContactMe from "../Contact/ContactMe";
+import { FaCircleUser } from "react-icons/fa6";
+import { HiLightBulb } from "react-icons/hi";
+import { LuContactRound } from "react-icons/lu";
 
 const Home = () => {
     const handelNavigate = (hash) => {
@@ -34,21 +35,21 @@ const Home = () => {
 
 
             <div className="absolute bottom-0 w-full">
-                <ul className="flex flex-col items-center gap-4 text-xl bg-[#ffffff] dark:bg-[#1a1a1a] dark:text-white-deep fixed bottom-5 right-4 rounded-md p-3">
+                <ul className="flex flex-col items-center gap-3 bg-[#ffffff] dark:bg-[#1a1a1a] dark:text-white-deep fixed bottom-5 right-4 rounded-md p-2">
                     <li className="cursor-pointer" onClick={() => handelNavigate("home")}>
-                        <FaHome />
+                        <FaHome size={20} />
                     </li>
                     <li className="cursor-pointer" onClick={() => handelNavigate("about-me")}>
-                        <FaUserAlt />
+                        <FaCircleUser size={20} />
                     </li>
                     <li className="cursor-pointer" onClick={() => handelNavigate("skills")}>
-                        <GiSkills />
+                        <HiLightBulb size={30} />
                     </li>
                     <li className="cursor-pointer" onClick={() => handelNavigate("works")}>
-                        <BsPersonWorkspace />
+                        <BsPersonWorkspace size={20} />
                     </li>
                     <li className="cursor-pointer" onClick={() => handelNavigate("contact-me")}>
-                        <IoMdContact />
+                        <LuContactRound size={20} />
                     </li>
                 </ul>
             </div>

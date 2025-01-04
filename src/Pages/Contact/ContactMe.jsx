@@ -12,7 +12,7 @@ const ContactMe = () => {
             </button>
 
             <div className="flex gap-12 flex-col lg:flex-row items-center justify-center">
-                <div className="bg-white p-10 rounded-xl dark:bg-[#181818] lg:min-h-[437px] items-start flex flex-col justify-center">
+                <div className="bg-white p-10 rounded-xl dark:bg-[#181818] lg:min-h-[437px] w-11/12 mx-auto items-start flex flex-col justify-center">
                     <ul className="space-y-3">
                         <li className="flex items-center text-lg font-medium gap-2 cursor-pointer dark:text-white-deep">
                             <FaPhone />
