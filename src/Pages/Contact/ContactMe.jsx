@@ -7,12 +7,12 @@ import { IoLogoWhatsapp, IoMdMail } from "react-icons/io";
 const ContactMe = () => {
     return (
         <section className="flex flex-col w-11/12 mx-auto my-28 items-center justify-center">
-            <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-4 flex items-center gap-2 dark:bg-[#2D2D2D]">
+            <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-8 flex items-center gap-2 dark:bg-[#2D2D2D]">
                 <FaArrowRight /> Contact Me
             </button>
 
             <div className="flex gap-12 flex-col lg:flex-row items-center justify-center">
-                <div className="bg-white p-10 rounded-xl dark:bg-[#252525]">
+                <div className="bg-white p-10 rounded-xl dark:bg-[#252525] lg:min-h-[437px] items-start flex flex-col justify-center">
                     <ul className="space-y-3">
                         <li className="flex items-center text-lg font-medium gap-2 cursor-pointer dark:text-white-deep">
                             <FaPhone />
