@@ -28,13 +28,7 @@ const AboutMe = () => {
                     Md. Tariqul Islam
                 </h2>
                 <p className="text-center lg:text-start text-[1.375rem] text-dark-lite font-medium leading-[31px] dark:text-white-deep">
-                    With over 4 years of hands-on experience in UX/UI design and frontend
-                    web development, I bring a wealth of expertise to every project.
-                    Meticulous attention to detail coupled with a deep understanding of
-                    user experience principles ensures that each design is not only
-                    visually captivating but also intuitive and user-friendly. From
-                    crafting elegant interfaces to implementing responsive layouts, I am
-                    dedicated to delivering top-notch solutions that exceed expectations.
+                    Hello! I&apos;m Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications. With expertise in modern front-end technologies like React, Tailwind CSS, and DaisyUI & others UI components, I strive to deliver seamless user experiences. On the backend, I leverage Node.js and MongoDB to build robust and scalable applications. Currently, I’m pursuing my studies while honing my skills to stay ahead in the ever-evolving tech landscape. Whether it&apos;s developing innovative platforms like Service Orbit or crafting sleek designs for Film Fusion, I thrive on solving challenges and turning ideas into reality. Let’s collaborate to bring your vision to life!
                 </p>
             </div>
         </section>

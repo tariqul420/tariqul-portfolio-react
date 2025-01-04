@@ -1,59 +1,74 @@
 [
     {
         "_id": 1,
-        "image": "../src/assets/Images/lelav-DixtAekI.png",
-        "heading": "Lelav Tech",
-        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "image": "https://i.ibb.co.com/mtbcZWV/Screenshot-2025-01-04-182527.png",
+        "heading": "Service Orbit",
+        "paragraph": "Service Orbit is a service-sharing web application designed to connect service providers with potential customers. The platform facilitates seamless interactions and transactions, empowering users to discover, offer, and engage with services efficiently.",
         "tools": [
             {
-                "name": "HTML"
+                "name": "React"
             },
             {
                 "name": "TailwindCSS"
             },
             {
-                "name": "Vue.js"
+                "name": "Firebase"
             },
             {
-                "name": "Laravel"
-            }
-        ],
-        "live": "https://lelav.com",
-        "github": "https//:github.com/tariqul420"
-    },
-    {
-        "_id": 2,
-        "image": "../src/assets/Images/banner.png",
-        "heading": "Tariqul Islam",
-        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-        "tools": [
-            {
-                "name": "HTML"
+                "name": "Node.js"
             },
             {
-                "name": "TailwindCSS"
+                "name": "MongoDB"
             },
             {
                 "name": "Javascript"
             }
         ],
-        "live": "https://tariqul.vercel.app",
+        "live": "https://service-orbit.web.app",
         "github": "https//:github.com/tariqul420"
     },
     {
-        "_id": 3,
-        "image": "../src/assets/Images/img2.jpg",
-        "heading": "KCode Generator CSS",
-        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "_id": 2,
+        "image": "https://i.ibb.co.com/1TN6DcX/Screenshot-2025-01-04-185022.png",
+        "heading": "Tariqul Islam",
+        "paragraph": "Hello! I'm Tariqul Islam, a passionate and dedicated Front-end developer with a knack for creating visually appealing, responsive, and dynamic web applications. With expertise in modern front-end technologies like React, Tailwind CSS, and DaisyUI & others UI components, I strive to deliver seamless user experiences. On the backend, I leverage Node.js and MongoDB to build robust and scalable applications. Currently, I’m pursuing my studies while honing my skills to stay ahead in the ever-evolving tech landscape. Whether it's developing innovative platforms like Service Orbit or crafting sleek designs for Film Fusion, I thrive on solving challenges and turning ideas into reality. Let’s collaborate to bring your vision to life!",
         "tools": [
             {
-                "name": "HTML"
+                "name": "Javascript"
             },
             {
                 "name": "TailwindCSS"
             },
             {
-                "name": "Next.js"
+                "name": "React"
+            }
+        ],
+        "live": "https://tariqul.vercel.app",
+        "github": "https://github.com/tariqul420/tariqul-portfolio-react.git"
+    },
+    {
+        "_id": 3,
+        "image": "https://i.ibb.co.com/0CfRK1h/Screenshot-2025-01-04-183255.png",
+        "heading": "Film Fusion",
+        "paragraph": "Film Fusion is an interactive and feature-rich platform designed to cater to movie enthusiasts. It serves as a centralized hub for exploring, reviewing, and managing information about films and series. The platform is built with modern web technologies, ensuring a seamless user experience and aesthetic appeal.",
+        "tools": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Firebase"
+            },
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "Javascript"
+            },
+            {
+                "name": "Node.js"
             }
         ],
         "live": "https://kcode-generation.vercel.app",
@@ -61,22 +76,25 @@
     },
     {
         "_id": 4,
-        "image": "../src/assets/Images/paralex.png",
-        "heading": "Parallax Website",
-        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "image": "https://i.ibb.co.com/8YFxg0J/Screenshot-2025-01-04-190413.png",
+        "heading": "GreenQuest Adventures",
+        "paragraph": "GreenQuest Adventures is an eco-friendly exploration platform where users embark on thrilling adventures, discovering sustainable practices, nature conservation, and eco-friendly initiatives to protect our planet for future generations.",
         "tools": [
             {
-                "name": "HTML"
+                "name": "React"
             },
             {
                 "name": "TailwindCSS"
             },
             {
                 "name": "Javascript"
+            },
+            {
+                "name": "Firebase"
             }
         ],
-        "live": "https://tariqul420.github.io/Parallax-website",
-        "github": "https//:github.com/tariqul420"
+        "live": "https://greenquest-adventures.web.app",
+        "github": "https://github.com/programming-hero-web-course1/b10-a9-authentication-tariqul420.git"
     },
     {
         "_id": 5,
