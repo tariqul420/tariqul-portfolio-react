@@ -1,6 +1,7 @@
 [
     {
-        "image": "../assets/lelav-DixtAekI.png",
+        "_id": 1,
+        "image": "../src/assets/Images/lelav-DixtAekI.png",
         "heading": "Lelav Tech",
         "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
         "tools": [
@@ -21,6 +22,7 @@
         "github": "https//:github.com/tariqul420"
     },
     {
+        "_id": 2,
         "image": "../src/assets/Images/banner.png",
         "heading": "Tariqul Islam",
         "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
@@ -39,7 +41,8 @@
         "github": "https//:github.com/tariqul420"
     },
     {
-        "image": "../assets/img2.jpg",
+        "_id": 3,
+        "image": "../src/assets/Images/img2.jpg",
         "heading": "KCode Generator CSS",
         "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
         "tools": [
@@ -57,7 +60,8 @@
         "github": "https//:github.com/tariqul420"
     },
     {
-        "image": "../assets/paralex.png",
+        "_id": 4,
+        "image": "../src/assets/Images/paralex.png",
         "heading": "Parallax Website",
         "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
         "tools": [
@@ -75,7 +79,8 @@
         "github": "https//:github.com/tariqul420"
     },
     {
-        "image": "../assets/quiz.png",
+        "_id": 5,
+        "image": "../src/assets/Images/quiz.png",
         "heading": "Quiz Website",
         "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
         "tools": [
@@ -96,7 +101,8 @@
         "github": "https//:github.com/tariqul420"
     },
     {
-        "image": "../assets/weather-apps.png",
+        "_id": 6,
+        "image": "../src/assets/Images/weather-apps.png",
         "heading": "Weather Checked",
         "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
         "tools": [
