@@ -1,11 +1,21 @@
+import axios from "axios";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
+import { MdError } from "react-icons/md";
 
 const ContactForm = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
-    const onSubmit = (data) => {
-        console.log("Form Submitted:", data);
-        window.location.href = `https://formspree.io/f/mjkbkjqn`;
+    const onSubmit = async (data) => {
+        try {
+            await axios.post("https://formspree.io/f/mdkkpzoa", data, {
+                headers: { "Content-Type": "application/json" },
+            });
+            toast.success("Message sent successfully!");
+            reset();
+        } catch (error) {
+            toast.error(error.message || "Failed to send the message.");
+        }
     };
 
     return (
@@ -16,21 +26,21 @@ const ContactForm = () => {
             {/* Full Name Field */}
             <div>
                 <input
-                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep ${errors.fullName ? "border-red-500" : ""
+                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep p-3 rounded-md ${errors.fullName ? "border-red-500" : ""
                         }`}
                     type="text"
                     placeholder="Full Name"
                     {...register("fullName", { required: "Full Name is required" })}
                 />
                 {errors.fullName && (
-                    <p className="text-red-500 text-sm mt-1">{errors.fullName.message}</p>
+                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center"> <MdError /> {errors.fullName.message}</p>
                 )}
             </div>
 
             {/* Email Address Field */}
             <div>
                 <input
-                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep ${errors.email ? "border-red-500" : ""
+                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid p-3 rounded-md dark:border-[#242222] dark:text-white-deep ${errors.email ? "border-red-500" : ""
                         }`}
                     type="email"
                     placeholder="Email Address"
@@ -43,14 +53,15 @@ const ContactForm = () => {
                     })}
                 />
                 {errors.email && (
-                    <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center">
+                        <MdError /> {errors.email.message}</p>
                 )}
             </div>
 
             {/* Message Field */}
             <div>
                 <textarea
-                    className={`w-[20.6rem] textarea focus:outline-0 lg:w-96 resize-none mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep md:w-[35rem] ${errors.message ? "border-red-500" : ""
+                    className={`w-[20.6rem] textarea focus:outline-0 lg:w-96 resize-none mx-auto dark:bg-transparent p-3 rounded-md dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep md:w-[35rem] ${errors.message ? "border-red-500" : ""
                         }`}
                     cols="30"
                     rows="8"
@@ -58,7 +69,7 @@ const ContactForm = () => {
                     {...register("message", { required: "Message is required" })}
                 ></textarea>
                 {errors.message && (
-                    <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>
+                    <p className="text-red-500 text-sm mt-1 flex gap-1 items-center"><MdError /> {errors.message.message}</p>
                 )}
             </div>
 
