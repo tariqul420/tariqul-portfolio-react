@@ -10,7 +10,7 @@ nav a.active {
 }
 
 .dark nav a.active {
-  color: #2fa258;
+  color: #38bd67;
 }
 
 @layer components {
@@ -23,7 +23,7 @@ nav a.active {
   }
 
   .nav {
-    @apply text-dark-lite font-medium text-lg hover:text-dark-deep dark:text-white-deep dark:hover:text-white-lite;
+    @apply text-dark-lite font-medium text-lg hover:text-dark-deep dark:text-white-deep dark:hover:text-primary2 duration-300;
   }
 
   .button {
@@ -37,6 +37,6 @@ nav a.active {
     @apply text-[10px] text-[#172635]/70 bg-[rgba(0,0,0,0.03)] hover:text-[#172635] duration-300 rounded-[4px] px-2 py-[2px] dark:text-dark-deep dark:bg-white-deep dark:hover:text-black;
   }
   .hero-icon {
-    @apply border border-solid border-[#172635] rounded-[50%] w-[40px] h-[40px] flex items-center justify-center text-2xl dark:text-white dark:border-white;
+    @apply border border-solid border-[#172635] rounded-[50%] text-4xl flex items-center justify-center dark:text-white dark:border-white p-1;
   }
 }
