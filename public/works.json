@@ -25,7 +25,7 @@
             }
         ],
         "live": "https://service-orbit.web.app",
-        "github": "https//:github.com/tariqul420"
+        "github": "https://github.com/tariqul420"
     },
     {
         "_id": 2,
@@ -72,7 +72,7 @@
             }
         ],
         "live": "https://kcode-generation.vercel.app",
-        "github": "https//:github.com/tariqul420"
+        "github": "https://github.com/tariqul420"
     },
     {
         "_id": 4,
@@ -98,46 +98,55 @@
     },
     {
         "_id": 5,
-        "image": "../src/assets/Images/quiz.png",
+        "image": "https://i.ibb.co.com/pyvSFX6/Screenshot-2025-01-04-194706.png",
         "heading": "Quiz Website",
-        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "paragraph": "BistroBoss is a modern dining experience that blends gourmet flavors with a casual, welcoming atmosphere. Located in the heart of the city, we offer a wide array of freshly prepared dishes, from hearty comfort food to exquisite fine dining options. Our menu features locally sourced ingredients, and each dish is crafted with passion by our expert chefs to ensure the highest quality and taste. Whether you're here for a quick lunch, a romantic dinner, or a special celebration, BistroBoss promises a memorable dining experience. Enjoy our carefully curated selection of wines, craft cocktails, and desserts that complement every meal. At BistroBoss, we don't just serve food – we serve unforgettable moments.",
         "tools": [
             {
-                "name": "HTML"
+                "name": "React"
             },
             {
                 "name": "TailwindCSS"
             },
             {
-                "name": "Vue.js"
+                "name": "TailwindCSS"
             },
             {
-                "name": "Laravel"
+                "name": "Javascript"
+            },
+            {
+                "name": "Firebase"
+            },
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "Node.js"
+            },
+            {
+                "name": "Express.js"
             }
         ],
-        "live": "https://tariqul420.github.io/Quiz-Website",
-        "github": "https//:github.com/tariqul420"
+        "live": "https://bistro-boss-restaurant-5.web.app",
+        "github": "https://github.com/tariqul420/Bistro-Boss-Restaurant.git"
     },
     {
         "_id": 6,
-        "image": "../src/assets/Images/weather-apps.png",
+        "image": "https://i.ibb.co.com/LkcRQdf/weather-apps.png",
         "heading": "Weather Checked",
-        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "paragraph": "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day, whether at home, work, or while traveling. With a sleek and intuitive interface, you can easily check the current weather, forecast, and other key meteorological details, including temperature, humidity, wind speed, and precipitation. The app leverages reliable data from weather APIs to deliver accurate information for cities around the world.",
         "tools": [
             {
                 "name": "HTML"
             },
             {
-                "name": "TailwindCSS"
+                "name": "Javascript"
             },
             {
-                "name": "Vue.js"
-            },
-            {
-                "name": "Laravel"
+                "name": "CSS"
             }
         ],
-        "live": "https://lelav.com",
-        "github": "https//:github.com/tariqul420"
+        "live": "https://tariqul420.github.io/WEATHER-APPS",
+        "github": "https://github.com/tariqul420/WEATHER-APPS.git"
     }
 ]
