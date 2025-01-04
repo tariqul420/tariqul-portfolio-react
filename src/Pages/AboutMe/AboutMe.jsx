@@ -4,7 +4,7 @@ import Tariqul from "../../assets/Images/tariqul-logo.jpg"
 const AboutMe = () => {
     return (
         <section
-            className="flex w-11/12 mx-auto py-28 flex-col gap-20 lg:flex-row"
+            className="flex w-11/12 mx-auto my-28 flex-col gap-20 lg:flex-row"
             id="about"
         >
             {/* Image Section */}

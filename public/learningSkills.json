@@ -1,0 +1,18 @@
+[
+    {
+        "image": "https://skillicons.dev/icons?i=javascript",
+        "name": "javascript"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=react",
+        "name": "react"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=mongodb",
+        "name": "mongodb"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=nodejs",
+        "name": "nodejs"
+    }
+]
