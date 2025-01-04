@@ -35,7 +35,7 @@ const Navbar = () => {
                     <NavLink to='/works' className='nav'>Works</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/contact' className='nav'>Contact</NavLink>
+                    <NavLink to='/contact-me' className='nav'>Contact</NavLink>
                 </li>
             </ul>
 
@@ -97,7 +97,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link
-                            to="/contact"
+                            to="/contact-me"
                             className="block hover:text-primary transition-colors ease-in-out duration-300"
                             onClick={() => setMobileSidebarOpen(false)}
                         >

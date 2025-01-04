@@ -4,6 +4,8 @@ import Error404 from "../Pages/Shared/Error404";
 import Home from "../Pages/Home/Home";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import Skills from "../Pages/Skills/Skills";
+import Works from "../Pages/Works/Works";
+import ContactMe from "../Pages/Contact/ContactMe";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
             {
                 path: "/skills",
                 element: <Skills />
+            },
+            {
+                path: "/works",
+                element: <Works />
+            },
+            {
+                path: "/contact-me",
+                element: <ContactMe />
             }
         ]
     }
