@@ -66,7 +66,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="https://www.facebook.com/tariqul.islam.fb"
+                                    href="https://github.com/tariqul420"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -75,7 +75,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="https://www.facebook.com/tariqul.islam.fb"
+                                    href="https://bd.linkedin.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -84,22 +84,34 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="https://www.facebook.com/tariqul.islam.fb"
+                                    href="https://t.me/tariqul017"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <IoLogoWhatsapp className="hero-icon lang" />
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="https://www.facebook.com/tariqul.islam.fb"
+                            <ul>
+                                <a className="lg:hidden"
+                                    href="mailto:tariqul.developer@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    aria-label="Email"
                                 >
                                     <SiGmail className="hero-icon lang" />
                                 </a>
-                            </li>
+                            </ul>
+                            <ul>
+                                <a
+                                    className="hidden lg:block"
+                                    href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Email"
+                                >
+                                    <SiGmail className="hero-icon lang" />
+                                </a>
+                            </ul>
                         </ul>
                     </div>
                 </div>
