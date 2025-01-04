@@ -2,6 +2,7 @@ import { FaLinkedin, FaGithub, FaFacebook, FaEnvelope } from "react-icons/fa";
 import Robot from "../../assets/Images/robo.png"
 import Responsive from "../../assets/Images/responsive.svg"
 import BestQuality from "../../assets/Images/quality.svg"
+import resume from "../../assets/Images/tariqul-resume.pdf"
 
 const Banner = () => {
     return (
@@ -11,7 +12,7 @@ const Banner = () => {
         >
             <div className="w-11/12 mx-auto flex items-center flex-col-reverse lg:flex-row gap-20">
                 {/* Text Section */}
-                <div className="flex-1 items-center justify-center space-y-3">
+                <div className="flex-1 items-center justify-center">
                     <p className="text-dark-deep text-[2.5rem] md:text-[3.5rem] lg:text-[2.5rem] font-semibold dark:text-white-lite text-center lg:text-left">
                         Hi, I&apos;m
                     </p>
@@ -23,7 +24,7 @@ const Banner = () => {
                     </p>
 
                     {/* Social Links */}
-                    <div className="flex gap-3 items-center justify-center lg:justify-start">
+                    <div className="flex gap-3 items-center justify-center lg:justify-start mt-3">
                         <a
                             href="https://www.linkedin.com/in/tariqul420/"
                             target="_blank"
@@ -64,6 +65,16 @@ const Banner = () => {
                             aria-label="Email"
                         >
                             <FaEnvelope className="hero-icon lang" />
+                        </a>
+                    </div>
+
+                    <div className="mt-8">
+                        <a
+                            href={resume}
+                            target="_blank"
+                            className="button px-4 py-3"
+                        >
+                            Download Resume
                         </a>
                     </div>
                 </div>

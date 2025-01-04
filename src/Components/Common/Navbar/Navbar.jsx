@@ -44,7 +44,9 @@ const Navbar = () => {
 
                 {/* Resume Button */}
                 <div className="max-sm:hidden space-x-3">
-                    <Link to="/contact" className="button">Resume</Link>
+                    <a className="button" target="_blank" href="https://docs.google.com/document/d/1iXBQFD7g83nxgOi9N1K25q--ogDAmGn3iMikkqVwBX0/edit?usp=sharing">
+                        Resume
+                    </a>
                 </div>
 
                 {/* Mobile Menu Toggle */}
@@ -56,7 +58,7 @@ const Navbar = () => {
 
             {/* Dropdown Menu */}
             <aside
-                className={`absolute top-[65px] right-0 w-full md:w-4/12 rounded-md transition-transform duration-300 transform bg-gray-200 dark:bg-[#121212] p-4 text-center shadow-md ${mobileSidebarOpen ? "translate-y-0 opacity-100 z-[2000]" : "translate-y-[-200px] opacity-0 z-[-1]"}`}
+                className={`absolute top-[65px] right-0 w-full md:w-4/12 rounded-md transition-transform duration-300 transform bg-white dark:bg-[#121212] p-4 text-center shadow-md ${mobileSidebarOpen ? "translate-y-0 opacity-100 z-[2000]" : "translate-y-[-200px] opacity-0 z-[-1]"}`}
             >
                 <ul className="space-y-3">
                     <li>
