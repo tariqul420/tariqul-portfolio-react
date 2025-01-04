@@ -1,46 +1,119 @@
-{
-    "works": [
-        {
-            "image": "../assets/lelav-DixtAekI.png",
-            "heading": "Lelav Tech",
-            "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-            "tools": ["HTML", "TailwindCSS", "Vue.js", "Laravel"],
-            "live": "https://lelav.com"
-        },
-        {
-            "image": "../assets/banner.png",
-            "heading": "Tariqul Islam",
-            "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-            "tools": ["HTML", "TailwindCSS", "Javascript"],
-            "live": "https://tariqul.vercel.app"
-        },
-        {
-            "image": "../assets/img2.jpg",
-            "heading": "KCode Generator CSS",
-            "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-            "tools": ["HTML", "TailwindCSS", "Next.js"],
-            "live": "https://kcode-generation.vercel.app"
-        },
-        {
-            "image": "../assets/paralex.png",
-            "heading": "Parallax Website",
-            "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-            "tools": ["HTML", "TailwindCSS", "Javascript"],
-            "live": "https://tariqul420.github.io/Parallax-website"
-        },
-        {
-            "image": "../assets/quiz.png",
-            "heading": "Quiz Website",
-            "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-            "tools": ["HTML", "TailwindCSS", "Vue.js", "Laravel"],
-            "live": "https://tariqul420.github.io/Quiz-Website"
-        },
-        {
-            "image": "../assets/weather-apps.png",
-            "heading": "Weather Checked",
-            "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
-            "tools": ["HTML", "TailwindCSS", "Vue.js", "Laravel"],
-            "live": "https://lelav.com"
-        }
-    ]
-}
+[
+    {
+        "image": "../assets/lelav-DixtAekI.png",
+        "heading": "Lelav Tech",
+        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "tools": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Vue.js"
+            },
+            {
+                "name": "Laravel"
+            }
+        ],
+        "live": "https://lelav.com",
+        "github": "https//:github.com/tariqul420"
+    },
+    {
+        "image": "../src/assets/Images/banner.png",
+        "heading": "Tariqul Islam",
+        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "tools": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Javascript"
+            }
+        ],
+        "live": "https://tariqul.vercel.app",
+        "github": "https//:github.com/tariqul420"
+    },
+    {
+        "image": "../assets/img2.jpg",
+        "heading": "KCode Generator CSS",
+        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "tools": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Next.js"
+            }
+        ],
+        "live": "https://kcode-generation.vercel.app",
+        "github": "https//:github.com/tariqul420"
+    },
+    {
+        "image": "../assets/paralex.png",
+        "heading": "Parallax Website",
+        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "tools": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Javascript"
+            }
+        ],
+        "live": "https://tariqul420.github.io/Parallax-website",
+        "github": "https//:github.com/tariqul420"
+    },
+    {
+        "image": "../assets/quiz.png",
+        "heading": "Quiz Website",
+        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "tools": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Vue.js"
+            },
+            {
+                "name": "Laravel"
+            }
+        ],
+        "live": "https://tariqul420.github.io/Quiz-Website",
+        "github": "https//:github.com/tariqul420"
+    },
+    {
+        "image": "../assets/weather-apps.png",
+        "heading": "Weather Checked",
+        "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
+        "tools": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "TailwindCSS"
+            },
+            {
+                "name": "Vue.js"
+            },
+            {
+                "name": "Laravel"
+            }
+        ],
+        "live": "https://lelav.com",
+        "github": "https//:github.com/tariqul420"
+    }
+]

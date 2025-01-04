@@ -1,0 +1,45 @@
+import PropTypes from "prop-types";
+import { FaEye, FaGithub, FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+const WorkCard = ({ work }) => {
+    const { image, heading, paragraph, tools, live, github } = work || {};
+    console.log(work);
+
+    return (
+        <div className="flex flex-col border rounded-[16px] w-full dark:border-[#242222]">
+            <img src={image} className="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]" />
+            <div className="flex flex-col p-[14px]">
+                <h1 className="font-medium text-[#172635] text-start text-splice dark:text-white-lite">{heading}</h1>
+                <p className="text-xs text-[#172635]/60 text-start mt-[12px] dark:text-white-deep">{paragraph}</p>
+                <div className="flex gap-[6px] mt-[8px]">
+                    {tools.map((tool, index) => (
+                        <span key={index} className="language">{tool?.name}</span>
+                    ))}
+                </div>
+                <div className="flex justify-between items-center mt-5 cursor-pointer dark:text-white-deep">
+                    <a href={live} target="_blank" className="flex items-center gap-[6px]">
+                        <FaLink />
+                        <span className="text-[12px] underline">Live Preview</span>
+                    </a>
+                    <div className="flex items-center gap-[10px]">
+                        <a href={github} target="_blank" className="flex items-center gap-[4px]">
+                            <FaGithub />
+                            <span className="text-[12px] underline">Github</span>
+                        </a>
+                        <Link className="flex items-center gap-[4px]">
+                            <FaEye />
+                            <span className="text-[12px] underline">Details</span>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+WorkCard.propTypes = {
+    work: PropTypes.object,
+}
+
+export default WorkCard;
