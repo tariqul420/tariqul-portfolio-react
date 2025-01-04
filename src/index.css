@@ -13,6 +13,36 @@ nav a.active {
   color: #38bd67;
 }
 
+.responsive {
+  animation: responsive 4s infinite;
+}
+
+.bestQuality {
+  animation: bestQuality 4s infinite;
+}
+
+@keyframes responsive {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bestQuality {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+}
+
 @layer components {
   .display-none {
     @apply hidden;
@@ -33,9 +63,11 @@ nav a.active {
   .lang {
     @apply transition duration-200 ease-in hover:-translate-y-1 hover:scale-110 cursor-pointer;
   }
+
   .language {
     @apply text-[10px] text-[#172635]/70 bg-[rgba(0,0,0,0.03)] hover:text-[#172635] duration-300 rounded-[4px] px-2 py-[2px] dark:text-dark-deep dark:bg-white-deep dark:hover:text-black;
   }
+
   .hero-icon {
     @apply border border-solid border-[#172635] rounded-[50%] text-4xl flex items-center justify-center dark:text-white dark:border-white p-1;
   }
