@@ -6,7 +6,7 @@ import { IoLogoWhatsapp, IoMdMail } from "react-icons/io";
 
 const ContactMe = () => {
     return (
-        <section className="flex flex-col w-11/12 mx-auto my-28 items-center justify-center">
+        <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === "/" ? 'py-28' : 'my-20'}`}>
             <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-8 flex items-center gap-2 dark:bg-[#2D2D2D]">
                 <FaArrowRight /> Contact Me
             </button>

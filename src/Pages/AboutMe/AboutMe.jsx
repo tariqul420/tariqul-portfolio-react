@@ -1,11 +1,13 @@
 import { FaArrowRight } from "react-icons/fa";
 import Tariqul from "../../assets/Images/tariqul-logo.jpg"
+import { useLocation } from "react-router-dom";
 
 const AboutMe = () => {
+    const location = useLocation();
+
     return (
         <section
-            className="flex w-11/12 mx-auto my-28 flex-col gap-20 lg:flex-row"
-            id="about"
+            className={`flex w-11/12 mx-auto flex-col gap-20 lg:flex-row ${location.pathname === "/" ? 'pt-28' : 'my-20'}`}
         >
             {/* Image Section */}
             <div className="lg:w-[30%] flex flex-col justify-center items-center relative">

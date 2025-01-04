@@ -1,11 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
 
 const Skills = () => {
     const [skills, setSkills] = useState([])
     const [learningSkills, setLearningSkills] = useState([])
     const [comfortableSkills, setComfortableSkills] = useState([])
+    const location = useLocation();
 
     useEffect(() => {
         axios.get('/skill.json')
@@ -20,7 +22,7 @@ const Skills = () => {
 
     return (
         <section
-            className="w-11/12 my-20 mx-auto"
+            className={`w-11/12 my-20 mx-auto ${location.pathname === "/" ? 'pt-28' : 'my-20'}`}
         >
 
             {/* Skills */}
