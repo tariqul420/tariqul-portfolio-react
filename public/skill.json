@@ -12,10 +12,6 @@
         "name": "tailwind"
     },
     {
-        "image": "https://skillicons.dev/icons?i=bootstrap",
-        "name": "bootstrap"
-    },
-    {
         "image": "https://skillicons.dev/icons?i=javascript",
         "name": "javascript"
     },
@@ -34,6 +30,10 @@
     {
         "image": "https://skillicons.dev/icons?i=nodejs",
         "name": "nodejs"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=expressjs",
+        "name": "expressjs"
     },
     {
         "image": "https://skillicons.dev/icons?i=github",
