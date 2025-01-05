@@ -68,7 +68,7 @@ const Banner = () => {
                         </a>
                     </div>
 
-                    <div className="mt-8">
+                    <div className="mt-8 flex items-center justify-center lg:justify-start">
                         <a
                             href={resume}
                             target="_blank"

@@ -57,7 +57,7 @@ const Home = () => {
                 <ContactMe />
             </div>
 
-            <div className="absolute bottom-0 w-full">
+            <div className="absolute bottom-0 w-full max-sm:hidden">
                 <ul className="flex flex-col items-center gap-3 bg-[#ffffff] dark:bg-[#1a1a1a] dark:text-white-deep fixed bottom-5 right-4 rounded-md p-2">
                     <li
                         className={`cursor-pointer ${activeHash === "#home" ? "text-[#38BD67]" : ""}`}
