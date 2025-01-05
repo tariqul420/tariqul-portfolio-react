@@ -9,6 +9,7 @@ import { FaCircleUser } from "react-icons/fa6";
 import { HiLightBulb } from "react-icons/hi";
 import { LuContactRound } from "react-icons/lu";
 import { useState, useEffect } from "react";
+import StartProject from "../../Components/Home/StartProject";
 
 const Home = () => {
     const [activeHash, setActiveHash] = useState(window.location.hash || "#home");
@@ -56,6 +57,8 @@ const Home = () => {
             <div id="contact-me">
                 <ContactMe />
             </div>
+
+            <StartProject />
 
             <div className="absolute bottom-0 w-full max-sm:hidden">
                 <ul className="flex flex-col items-center gap-3 bg-white-lite dark:bg-dark-lite dark:text-white-deep fixed bottom-5 right-4 rounded-md p-2 shadow-sm">
