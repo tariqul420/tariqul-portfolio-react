@@ -1,13 +1,17 @@
 import axios from "axios";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { MdError } from "react-icons/md";
+import { TbFidgetSpinner } from "react-icons/tb";
 
 const ContactForm = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const [sending, setSending] = useState(false)
 
     const onSubmit = async (data) => {
         try {
+            setSending(true)
             await axios.post("https://formspree.io/f/mdkkpzoa", data, {
                 headers: { "Content-Type": "application/json" },
             });
@@ -15,6 +19,8 @@ const ContactForm = () => {
             reset();
         } catch (error) {
             toast.error(error.message || "Failed to send the message.");
+        } finally {
+            setSending(false)
         }
     };
 
@@ -74,11 +80,13 @@ const ContactForm = () => {
             </div>
 
             {/* Submit Button */}
-            <input
-                type="submit"
-                value="SUBMIT"
-                className="button cursor-pointer w-full"
-            />
+            <button type="submit" disabled={sending} className={`button cursor-pointer w-full flex items-center justify-center ${sending ? "opacity-70 cursor-not-allowed" : ""}`}>
+                {sending ? (
+                    <TbFidgetSpinner size={25} className='animate-spin m-auto py-1' />
+                ) : (
+                    'SUBMIT'
+                )}
+            </button>
         </form>
     );
 };
