@@ -22,7 +22,6 @@ nav a.active {
 }
 
 @keyframes responsive {
-
   0%,
   100% {
     transform: translateY(0);
@@ -34,7 +33,6 @@ nav a.active {
 }
 
 @keyframes bestQuality {
-
   0%,
   100% {
     transform: translateY(0);
@@ -73,4 +71,13 @@ nav a.active {
   .hero-icon {
     @apply border border-solid border-dark-deep rounded-[50%] text-4xl flex items-center justify-center dark:text-white dark:border-white p-1;
   }
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
