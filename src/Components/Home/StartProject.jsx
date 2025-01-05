@@ -8,7 +8,7 @@ const StartProject = () => {
                     <h4 className="text-2xl text-white font-semibold">Start a Project</h4>
                 </div>
                 <div>
-                    <p className="text-base text-center">
+                    <p className="text-base text-center text-white">
                         Interested in working together? We should <br className="hidden lg:block" />
                         queue up a time to chat. I’ll buy the tea.
                     </p>

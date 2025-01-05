@@ -58,7 +58,7 @@ const Navbar = () => {
 
             {/* Dropdown Menu */}
             <aside
-                className={`absolute top-[65px] right-0 w-full md:w-4/12 rounded-md transition-transform duration-300 transform bg-white dark:bg-[#121212] p-4 text-center shadow-md ${mobileSidebarOpen ? "translate-y-0 opacity-100 z-[2000]" : "translate-y-[-200px] opacity-0 z-[-1]"}`}
+                className={`absolute top-[65px] right-0 w-full md:w-4/12 rounded-md transition-transform duration-300 transform bg-white dark:bg-dark-lite p-4 text-center shadow-md ${mobileSidebarOpen ? "translate-y-0 opacity-100 z-[2000]" : "translate-y-[-200px] opacity-0 z-[-1]"}`}
             >
                 <ul className="space-y-3">
                     <li>

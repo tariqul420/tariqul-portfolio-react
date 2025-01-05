@@ -7,7 +7,7 @@ const WorkCard = ({ work }) => {
     console.log(work);
 
     return (
-        <div className="flex flex-col border rounded-[16px] w-full dark:border-[#242222]">
+        <div className="flex flex-col border rounded-[16px] w-full dark:border-[#172635]">
             <img
                 src={image}
                 className="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]"
