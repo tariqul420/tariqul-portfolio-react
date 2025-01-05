@@ -32,7 +32,7 @@ const ContactForm = () => {
             {/* Full Name Field */}
             <div>
                 <input
-                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep p-3 rounded-md ${errors.fullName ? "border-red-500" : ""
+                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-[#172635] dark:text-white-deep p-3 rounded-md ${errors.fullName ? "border-red-500" : ""
                         }`}
                     type="text"
                     placeholder="Full Name"
@@ -46,7 +46,7 @@ const ContactForm = () => {
             {/* Email Address Field */}
             <div>
                 <input
-                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid p-3 rounded-md dark:border-[#242222] dark:text-white-deep ${errors.email ? "border-red-500" : ""
+                    className={`w-[20.6rem] input focus:outline-0 md:w-[35rem] lg:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid p-3 rounded-md dark:border-[#172635] dark:text-white-deep ${errors.email ? "border-red-500" : ""
                         }`}
                     type="email"
                     placeholder="Email Address"
@@ -67,7 +67,7 @@ const ContactForm = () => {
             {/* Message Field */}
             <div>
                 <textarea
-                    className={`w-[20.6rem] textarea focus:outline-0 lg:w-96 resize-none mx-auto dark:bg-transparent p-3 rounded-md dark:border dark:border-solid dark:border-[#242222] dark:text-white-deep md:w-[35rem] ${errors.message ? "border-red-500" : ""
+                    className={`w-[20.6rem] textarea focus:outline-0 lg:w-96 resize-none mx-auto dark:bg-transparent p-3 rounded-md dark:border dark:border-solid dark:border-[#172635] dark:text-white-deep md:w-[35rem] ${errors.message ? "border-red-500" : ""
                         }`}
                     cols="30"
                     rows="8"

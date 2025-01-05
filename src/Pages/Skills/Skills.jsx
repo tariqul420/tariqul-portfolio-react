@@ -28,7 +28,7 @@ const Skills = () => {
             {/* Skills */}
             <div className="flex flex-col items-center justify-center">
                 {/* Section Title */}
-                <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-8 flex items-center gap-2 dark:bg-[#2D2D2D]">
+                <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
                     <FaArrowRight /> Skills
                 </button>
 
@@ -51,7 +51,7 @@ const Skills = () => {
             {/* Current Learning */}
             <div className="flex flex-col items-center justify-center">
                 {/* Section Title */}
-                <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-8 mt-10 flex items-center gap-2 dark:bg-[#2D2D2D]">
+                <button className="px-4 py-2 bg-white rounded-lg mb-8 mt-10 flex items-center gap-2 dark:bg-dark-lite">
                     <FaArrowRight /> Current Learning
                 </button>
 
@@ -74,7 +74,7 @@ const Skills = () => {
             {/* Comfortable */}
             <div className="flex flex-col items-center justify-center">
                 {/* Section Title */}
-                <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-8 mt-10 flex items-center gap-2 dark:bg-[#2D2D2D]">
+                <button className="px-4 py-2 bg-white rounded-lg mb-8 mt-10 flex items-center gap-2 dark:bg-dark-lite">
                     <FaArrowRight /> comfortable
                 </button>
 

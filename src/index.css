@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 nav a.active {
-  color: #172635;
+  color: #38bd67;
 }
 
 .dark nav a.active {
@@ -22,6 +22,7 @@ nav a.active {
 }
 
 @keyframes responsive {
+
   0%,
   100% {
     transform: translateY(0);
@@ -33,6 +34,7 @@ nav a.active {
 }
 
 @keyframes bestQuality {
+
   0%,
   100% {
     transform: translateY(0);
@@ -53,7 +55,7 @@ nav a.active {
   }
 
   .nav {
-    @apply text-dark-lite font-medium text-lg hover:text-dark-deep dark:text-white-deep dark:hover:text-primary2 duration-300;
+    @apply text-dark-lite hover:text-primary2 font-medium text-lg dark:text-white-deep dark:hover:text-primary2 duration-300;
   }
 
   .button {
@@ -65,10 +67,10 @@ nav a.active {
   }
 
   .language {
-    @apply text-[10px] text-[#172635]/70 bg-[rgba(0,0,0,0.03)] hover:text-[#172635] duration-300 rounded-[4px] px-2 py-[2px] dark:text-dark-deep dark:bg-white-deep dark:hover:text-black;
+    @apply text-[10px] text-dark-deep/70 bg-[#00000008] hover:text-primary1 duration-300 rounded-[4px] px-2 py-[2px] dark:text-dark-deep dark:bg-white-deep dark:hover:text-black;
   }
 
   .hero-icon {
-    @apply border border-solid border-[#172635] rounded-[50%] text-4xl flex items-center justify-center dark:text-white dark:border-white p-1;
+    @apply border border-solid border-dark-deep rounded-[50%] text-4xl flex items-center justify-center dark:text-white dark:border-white p-1;
   }
 }

@@ -21,7 +21,7 @@ const AboutMe = () => {
             {/* About Content Section */}
             <div className="lg:w-[70%] flex flex-col items-center lg:items-start justify-center">
                 {/* Section Title */}
-                <button className="px-4 py-2 bg-[#E2E8F0] rounded-lg mb-4 flex items-center gap-2 dark:bg-[#2D2D2D]">
+                <button className="px-4 py-2 bg-white rounded-lg mb-4 flex items-center gap-2 dark:bg-dark-lite">
                     <FaArrowRight /> About Me
                 </button>
                 <h2 className="text-center lg:text-start text-3xl text-primary1 font-semibold leading-[48px] mb-10">

@@ -6,7 +6,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="py-4 px-4 bg-[#F2F6FA] border border-solid dark:bg-[#181818] dark:border-none">
+        <footer className="py-4 px-4  border border-solid dark:border-none bg-gradient-to-r from-[#E9F2FF] to-[#F2F6FA] dark:bg-gradient-to-r dark:from-dark-lite dark:to-dark-light dark:text-white-deep">
             <div className="w-11/12 flex-col lg:flex-row flex items-center justify-between mx-auto space-y-4">
                 {/* Branding */}
                 <div>

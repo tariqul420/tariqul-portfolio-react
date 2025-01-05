@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <section
             id="home"
-            className="bg-gradient-to-r from-[#E9F2FF] to-[#F2F6FA] -mt-[5.1rem] pt-28 pb-8 dark:bg-gradient-to-r dark:from-[#121212] dark:to-[#121212]"
+            className=" -mt-[5.1rem] pt-28 pb-8 "
         >
             <div className="w-11/12 mx-auto flex items-center flex-col-reverse lg:flex-row gap-20">
                 {/* Text Section */}

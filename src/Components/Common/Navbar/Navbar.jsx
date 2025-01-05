@@ -7,7 +7,7 @@ const Navbar = () => {
     const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
     return (
-        <nav className="z-[1000] mx-auto sticky top-4 flex items-center justify-between py-4 px-4 w-11/12 bg-[#F2F6FA] border border-solid rounded-xl dark:bg-[#181818] shadow-sm dark:shadow-md dark:border-[#242222] dark:text-white-deep">
+        <nav className="z-[1000] mx-auto sticky top-4 flex items-center justify-between py-4 px-4 w-11/12 bg-[#F2F6FA] border border-solid rounded-xl dark:bg-dark-lite shadow-sm dark:shadow-md dark:border-dark-deep dark:text-white-deep">
             <div>
                 <Link to="/">
                     <p className="text-dark-deep font-semibold text-3xl dark:text-white-deep">
