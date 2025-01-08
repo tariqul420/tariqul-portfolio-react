@@ -7,7 +7,7 @@
 
 # Tariqul Islam - Portfolio 🌟
 
-Welcome to my personal portfolio! This is where I showcase my projects, skills, and experiences as a **Front-end Developer** and **MERN Stack Developer**.  
+Welcome to my personal portfolio! This is where I showcase my projects, skills, and experiences as a **Front-end Developer** and **MERN Stack Developer**.
 
 ---
 
@@ -24,6 +24,7 @@ Welcome to my personal portfolio! This is where I showcase my projects, skills, 
 ## 🛠️ **Technologies Used**
 
 ### **Front-end**
+
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
@@ -31,10 +32,10 @@ Welcome to my personal portfolio! This is where I showcase my projects, skills, 
 - **Tailwind CSS**
 
 ### **Other Tools**
+
 - **Figma** (UI/UX Design)
 - **Vercel** (Deployment)
 - **GitHub Actions** (CI/CD)
-
 
 ---
 
@@ -44,6 +45,7 @@ Feel free to reach out through any of these platforms:
 
 - 🌐 [Portfolio Website](https://tariqul.vercel.app/)
 - 📧 [tariqul.developer@gmail.com](mailto:tariqul.developer@gmail.com)
+- 📢 [Facebook](https://www.facebook.com/tariqul.islam.fb)
 - 💼 [LinkedIn](https://linkedin.com/in/tariqul)
 - 📱 [WhatsApp](https://wa.me/+8801743892058)
 
@@ -52,24 +54,35 @@ Feel free to reach out through any of these platforms:
 ## 💡 **How to Run Locally**
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/tariqul420/tariqul-portfolio.git
+
+   ```
 
 2. **Navigate to the project directory**:
+
    ```bash
    git clone https://github.com/tariqul420/tariqul-portfolio.git
 
+   ```
+
 3. **Install dependencies**:
+
    ```bash
    npm install
+
+   ```
 
 4. **Start the development server**:
    ```bash
    npm run dev
+   ```
 
 ---
 
 ## 🚀 **Upcoming Features**
+
 - Adding a blog section to share my thoughts and tutorials.
 - Integrating animations using Framer Motion and MagicUI.
 - SEO optimization for better visibility.
