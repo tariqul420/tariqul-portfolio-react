@@ -10,9 +10,11 @@ import { HiLightBulb } from "react-icons/hi";
 import { LuContactRound } from "react-icons/lu";
 import { useState, useEffect } from "react";
 import StartProject from "../../Components/Home/StartProject";
+import ParticlesUI from "@/Animation/ParticlesUI";
 
 const Home = () => {
     const [activeHash, setActiveHash] = useState(window.location.hash || "#home");
+
 
     const handelNavigate = (hash) => {
         window.location.hash = hash;
@@ -42,6 +44,9 @@ const Home = () => {
 
     return (
         <div className="relative">
+            {/* Particles */}
+            <ParticlesUI />
+
             <div id="home">
                 <Banner />
             </div>

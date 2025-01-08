@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import { FaArrowRight } from "react-icons/fa";
 import WorkCard from "../../Components/Works/WorkCard";
 import { useLocation } from "react-router-dom";
+import ParticlesUI from "@/Animation/ParticlesUI";
 
 const Works = () => {
     const [works, setWorks] = useState([]);
@@ -20,6 +21,11 @@ const Works = () => {
 
     return (
         <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === "/" ? 'pt-28' : 'my-20'}`}>
+            {/* Particles */}
+            {
+                location.pathname === '/works' && <ParticlesUI />
+            }
+
             <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
                 <FaArrowRight /> Works
             </button>

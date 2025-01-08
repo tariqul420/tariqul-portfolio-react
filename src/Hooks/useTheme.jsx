@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import { IoMoon, IoSunny } from "react-icons/io5";
+import { useEffect, useState } from "react";
 
-const ThemeToggle = () => {
+const useTheme = () => {
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+    console.log(theme);
 
     useEffect(() => {
         if (theme === "dark") {
@@ -20,18 +20,7 @@ const ThemeToggle = () => {
         setTheme(theme === "dark" ? "light" : "dark");
     };
 
-    return (
-        <button
-            onClick={toggleTheme}
-            className="p-2 rounded-full bg-white dark:bg-gray-700"
-        >
-            {theme === "dark" ? (
-                <IoMoon size={24} color="#38BD67" />
-            ) : (
-                <IoSunny size={24} color="#38BD67" />
-            )}
-        </button>
-    );
+    return { toggleTheme, theme, setTheme }
 };
 
-export default ThemeToggle;
+export default useTheme;

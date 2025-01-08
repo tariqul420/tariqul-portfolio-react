@@ -1,10 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import { CiMenuFries } from "react-icons/ci";
 import { useState } from "react";
-import ThemeToggle from "./ThemeToggle";
+import useTheme from "../../../Hooks/useTheme";
+import { IoMoon, IoSunny } from "react-icons/io5";
+// import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
     const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+    const { toggleTheme, theme } = useTheme()
 
     return (
         <nav className="z-[1000] mx-auto sticky top-4 flex items-center justify-between py-4 px-4 w-11/12 bg-[#F2F6FA] border border-solid rounded-xl dark:bg-dark-lite shadow-sm dark:shadow-md dark:border-dark-deep dark:text-white-deep">
@@ -40,7 +43,17 @@ const Navbar = () => {
             </ul>
 
             <div className="flex items-center gap-4">
-                <ThemeToggle />
+                {/* <ThemeToggle /> */}
+                <button
+                    onClick={toggleTheme}
+                    className="p-2 rounded-full bg-white dark:bg-gray-700"
+                >
+                    {theme === "dark" ? (
+                        <IoMoon size={24} color="#38BD67" />
+                    ) : (
+                        <IoSunny size={24} color="#38BD67" />
+                    )}
+                </button>
 
                 {/* Resume Button */}
                 <div className="max-sm:hidden space-x-3">

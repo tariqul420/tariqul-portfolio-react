@@ -3,10 +3,16 @@ import { FaArrowRight, FaFacebook, FaGithub, FaLinkedin, FaPhone } from "react-i
 import { FaLocationDot } from "react-icons/fa6";
 import ContactForm from "../../Components/ContactMe/ContactForm";
 import { IoLogoWhatsapp, IoMdMail } from "react-icons/io";
+import ParticlesUI from "@/Animation/ParticlesUI";
 
 const ContactMe = () => {
     return (
         <section className={`flex flex-col w-11/12 mx-auto items-center justify-center ${location.pathname === "/" ? 'pt-28' : 'my-20'}`}>
+            {/* Particles */}
+            {
+                location.pathname === '/contact-me' && <ParticlesUI />
+            }
+
             <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
                 <FaArrowRight /> Contact Me
             </button>

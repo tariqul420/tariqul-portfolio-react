@@ -1,3 +1,4 @@
+import ParticlesUI from "@/Animation/ParticlesUI";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
@@ -24,6 +25,10 @@ const Skills = () => {
         <section
             className={`w-11/12 my-20 mx-auto ${location.pathname === "/" ? 'pt-28' : 'my-20'}`}
         >
+            {/* Particles */}
+            {
+                location.pathname === '/skills' && <ParticlesUI />
+            }
 
             {/* Skills */}
             <div className="flex flex-col items-center justify-center">
