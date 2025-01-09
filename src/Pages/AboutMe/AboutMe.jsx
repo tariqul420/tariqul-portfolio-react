@@ -2,6 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Tariqul from "../../assets/Images/tariqul-logo.jpg"
 import { useLocation } from "react-router-dom";
 import ParticlesUI from "@/Animation/ParticlesUI";
+import ShineBorder from "@/Components/ui/shine-border";
 
 const AboutMe = () => {
     const location = useLocation();
@@ -17,11 +18,13 @@ const AboutMe = () => {
 
             {/* Image Section */}
             <div className="lg:w-[30%] flex flex-col justify-center items-center relative">
-                <img
-                    className="lg:w-[320px] w-10/12 rounded-full"
-                    src={Tariqul}
-                    alt="Tariqul Islam"
-                />
+                <ShineBorder borderRadius={9999} color="#38BD67" borderWidth={3} className={`bg-transparent`}>
+                    <img
+                        className="lg:w-[320px] w-10/12 rounded-full"
+                        src={Tariqul}
+                        alt="Tariqul Islam"
+                    />
+                </ShineBorder>
             </div>
 
             {/* About Content Section */}
