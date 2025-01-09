@@ -18,7 +18,7 @@ const AboutMe = () => {
 
             {/* Image Section */}
             <div className="lg:w-[30%] flex flex-col justify-center items-center relative">
-                <ShineBorder borderRadius={9999} color="#38BD67" borderWidth={3} className={`bg-transparent`}>
+                <ShineBorder borderRadius={9999} color="#38BD67" borderWidth={3} className={`dark:bg-transparent bg-transparent`}>
                     <img
                         className="lg:w-[320px] w-10/12 rounded-full"
                         src={Tariqul}

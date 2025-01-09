@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 const ParticlesUI = () => {
     const { theme } = useTheme()
     const [color, setColor] = useState("#ffffff");
-    console.log(theme);
 
     useEffect(() => {
         setColor(theme === "dark" ? "#ffffff" : "#000000");
