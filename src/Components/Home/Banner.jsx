@@ -3,6 +3,7 @@ import Robot from "../../assets/Images/robo.png"
 import Responsive from "../../assets/Images/responsive.svg"
 import BestQuality from "../../assets/Images/quality.svg"
 import resume from "../../assets/Images/tariqul-resume.pdf"
+import { RainbowButton } from "../ui/rainbow-button";
 
 const Banner = () => {
     return (
@@ -69,13 +70,14 @@ const Banner = () => {
                     </div>
 
                     <div className="mt-8 flex items-center justify-center lg:justify-start">
-                        <a
-                            href={resume}
-                            target="_blank"
-                            className="button px-4 py-3"
-                        >
-                            Download Resume
-                        </a>
+                        <RainbowButton className={`!bg-gradient-to-r from-primary2 to-primary1 rounded-xl text-white font-semibold custom-scale-effect`}>
+                            <a
+                                href={resume}
+                                target="_blank"
+                            >
+                                Download Resume
+                            </a>
+                        </RainbowButton>
                     </div>
                 </div>
 
