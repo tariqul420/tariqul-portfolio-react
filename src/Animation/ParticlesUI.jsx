@@ -15,7 +15,7 @@ const ParticlesUI = () => {
         <div>
             <Particles
                 key={color}
-                className={`fixed top-0 left-0 w-full h-full z-0`}
+                className={`fixed top-0 left-0 w-full h-full z-[-1] dark:z-0`}
                 quantity={400}
                 ease={60}
                 color={color}

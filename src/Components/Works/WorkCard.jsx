@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const WorkCard = ({ work }) => {
     const { image, heading, paragraph, tools, live, github } = work || {};
-    console.log(work);
 
     return (
         <div className="flex flex-col border rounded-[16px] w-full dark:border-[#172635]">

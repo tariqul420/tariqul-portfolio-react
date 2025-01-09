@@ -4,12 +4,15 @@ import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import router from './Router/Router'
 import { Toaster } from 'react-hot-toast'
+import ThemeProvider from './Provider/ThemeProvider'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
-    <Toaster
-      position='top-right'
-    />
+    <ThemeProvider>
+      <RouterProvider router={router} />
+      <Toaster
+        position='top-right'
+      />
+    </ThemeProvider>
   </StrictMode>,
 )
