@@ -2,13 +2,12 @@ import { FaLinkedin, FaGithub, FaFacebook, FaEnvelope } from "react-icons/fa";
 import Robot from "../../assets/Images/robo.png"
 import Responsive from "../../assets/Images/responsive.svg"
 import BestQuality from "../../assets/Images/quality.svg"
-import resume from "../../assets/Images/tariqul-resume.pdf"
+import resume from "../../assets/Resume/Resume of Md Tariqul Islam.pdf"
 import { RainbowButton } from "../ui/rainbow-button";
 
 const Banner = () => {
     return (
         <section
-            id="home"
             className=" -mt-[5.1rem] pt-28 pb-8 "
         >
             <div className="w-11/12 mx-auto flex items-center flex-col-reverse lg:flex-row gap-20">
