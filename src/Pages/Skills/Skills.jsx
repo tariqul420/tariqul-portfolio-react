@@ -85,7 +85,7 @@ const Skills = () => {
 
                 {/* Skill Icons */}
                 <div
-                    className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 items-center justify-center gap-4"
+                    className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-center justify-center gap-4"
                 >
                     {comfortableSkills?.map((skill, index) => (
                         <div
