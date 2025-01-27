@@ -30,7 +30,7 @@ const Skills = () => {
                 location.pathname === '/skills' && <ParticlesUI />
             }
 
-            {/* Skills */}
+            {/* All Skills */}
             <div className="flex flex-col items-center justify-center">
                 {/* Section Title */}
                 <button className="px-4 py-2 bg-white rounded-lg mb-8 flex items-center gap-2 dark:bg-dark-lite">
@@ -62,7 +62,7 @@ const Skills = () => {
 
                 {/* Skill Icons */}
                 <div
-                    className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 items-center justify-center gap-4"
+                    className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-center justify-center gap-4"
                 >
                     {learningSkills?.map((skill, index) => (
                         <div

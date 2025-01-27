@@ -1,5 +1,13 @@
 [
     {
+        "image": "https://skillicons.dev/icons?i=html",
+        "name": "Html 5"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=css",
+        "name": "Css 3"
+    },
+    {
         "image": "https://skillicons.dev/icons?i=tailwind",
         "name": "tailwind"
     },
