@@ -1,18 +1,26 @@
 [
     {
         "image": "https://skillicons.dev/icons?i=javascript",
-        "name": "javascript"
+        "name": "Javascript"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=typescript",
+        "name": "Typescript"
     },
     {
         "image": "https://skillicons.dev/icons?i=react",
-        "name": "react"
+        "name": "React"
+    },
+    {
+        "image": "https://skillicons.dev/icons?i=nextjs",
+        "name": "Nextjs"
     },
     {
         "image": "https://skillicons.dev/icons?i=mongodb",
-        "name": "mongodb"
+        "name": "Mongodb"
     },
     {
         "image": "https://skillicons.dev/icons?i=nodejs",
-        "name": "nodejs"
+        "name": "Nodejs"
     }
 ]

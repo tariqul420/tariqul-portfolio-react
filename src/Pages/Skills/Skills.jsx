@@ -44,7 +44,7 @@ const Skills = () => {
                     {skills?.map((skill, index) => (
                         <div
                             key={index}
-                            className="flex flex-col items-center justify-center space-y-3 lang"
+                            className="flex flex-col items-center justify-center space-y-2 lang"
                         >
                             <img className="w-10 h-10 object-contain" src={skill?.image} alt="" />
                             <p className="font-bold text-dark-lite tracking-widest dark:text-white-deep">{skill?.name}</p>
@@ -62,7 +62,7 @@ const Skills = () => {
 
                 {/* Skill Icons */}
                 <div
-                    className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 items-center justify-center gap-4"
+                    className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 items-center justify-center gap-4"
                 >
                     {learningSkills?.map((skill, index) => (
                         <div
