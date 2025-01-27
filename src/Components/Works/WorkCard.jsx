@@ -1,9 +1,8 @@
 import PropTypes from "prop-types";
 import { FaEye, FaGithub, FaLink } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const WorkCard = ({ work }) => {
-    const { image, heading, paragraph, tools, live, github } = work || {};
+    const { image, heading, paragraph, tools, live, github, details } = work || {};
 
     return (
         <div className="flex flex-col border rounded-[16px] w-full dark:border-[#172635]">
@@ -11,12 +10,12 @@ const WorkCard = ({ work }) => {
                 src={image}
                 className="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]"
             />
-            <div className="flex flex-col p-[14px] flex-grow">
+            <div className="flex flex-col p-[14px] flex-grow dark:bg-dark-lite bg-white">
                 <h1 className="font-medium text-[#172635] text-start text-splice dark:text-white-lite">
                     {heading}
                 </h1>
                 <p className="text-xs text-[#172635]/60 text-start mt-[12px] dark:text-white-deep">
-                    {paragraph.slice(0, 100)}...
+                    {paragraph.slice(0, 110)}...
                 </p>
                 <div className="flex gap-[6px] mt-[8px] flex-wrap">
                     {tools.map((tool, index) => (
@@ -36,10 +35,10 @@ const WorkCard = ({ work }) => {
                             <span className="text-[12px] underline">Github</span>
                         </a>
 
-                        <Link className="flex items-center gap-[4px]">
+                        <a href={details} target="_blank" className="flex items-center gap-[4px]">
                             <FaEye />
                             <span className="text-[12px] underline">Details</span>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
