@@ -57,7 +57,7 @@ const Navbar = () => {
 
                 {/* Resume Button */}
                 <div className="max-sm:hidden space-x-3">
-                    <a className="button" target="_blank" href="https://drive.google.com/file/d/1LF8SZv-rV8XdG2NtbuuIJmhBT9L_x0H2/view">
+                    <a className="button" target="_blank" href="https://drive.google.com/file/d/1q8QMRPujHmTcDtrz_9Ox1ObY-ADOPfRy/view?usp=sharing">
                         Resume
                     </a>
                 </div>

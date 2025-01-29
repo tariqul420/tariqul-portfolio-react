@@ -2,10 +2,20 @@ import { FaLinkedin, FaGithub, FaFacebook, FaEnvelope } from "react-icons/fa";
 import Robot from "../../assets/Images/robo.png"
 import Responsive from "../../assets/Images/responsive.svg"
 import BestQuality from "../../assets/Images/quality.svg"
-import resume from "../../assets/Resume/Resume of Md Tariqul Islam.pdf"
 import { RainbowButton } from "../ui/rainbow-button";
 
 const Banner = () => {
+    const resumeLink = "https://drive.google.com/uc?export=download&id=1q8QMRPujHmTcDtrz_9Ox1ObY-ADOPfRy";
+
+    const handelResumeDownload = () => {
+        const link = document.createElement("a");
+        link.href = resumeLink;
+        link.setAttribute("download", "Resume of Md Tariqul Islam.pdf");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <section
             className=" -mt-[5.1rem] pt-28 pb-8 "
@@ -69,13 +79,11 @@ const Banner = () => {
                     </div>
 
                     <div className="mt-8 flex items-center justify-center lg:justify-start">
-                        <RainbowButton className={`!bg-gradient-to-r from-primary2 to-primary1 rounded-xl text-white font-semibold custom-scale-effect`}>
-                            <a
-                                href={resume}
-                                target="_blank"
-                            >
-                                Download Resume
-                            </a>
+                        <RainbowButton
+                            className={`!bg-gradient-to-r from-primary2 to-primary1 rounded-xl text-white font-semibold custom-scale-effect`}
+                            onClick={handelResumeDownload}
+                        >
+                            Download Resume
                         </RainbowButton>
                     </div>
                 </div>
