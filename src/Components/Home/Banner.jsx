@@ -5,7 +5,7 @@ import BestQuality from "../../assets/Images/quality.svg"
 import { RainbowButton } from "../ui/rainbow-button";
 
 const Banner = () => {
-    const resumeLink = "https://drive.google.com/uc?export=download&id=1q8QMRPujHmTcDtrz_9Ox1ObY-ADOPfRy";
+    const resumeLink = "https://drive.google.com/uc?export=download&id=1nNowXsyJHRgKnWDXEjqhlbDkvxiy_Q_1";
 
     const handelResumeDownload = () => {
         const link = document.createElement("a");
